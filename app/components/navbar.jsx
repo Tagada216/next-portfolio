@@ -21,7 +21,7 @@ function Navbar() {
               href="#about"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                ABOUT
+                A PROPOS
               </div>
             </a>
           </li>
@@ -31,7 +31,7 @@ function Navbar() {
               href="#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EXPERIENCE
+                EXPERIENCES
               </div>
             </a>
           </li>
@@ -41,7 +41,7 @@ function Navbar() {
               href="#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                SKILLS
+                COMPETENCES
               </div>
             </a>
           </li>
@@ -51,11 +51,11 @@ function Navbar() {
               href="#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EDUCATION
+                FORMATION
               </div>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#blogs"
@@ -64,14 +64,14 @@ function Navbar() {
                 BLOGS
               </div>
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               className="block px-4 py-2 no-underline outline-none hover:no-underline"
               href="#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                PROJECTS
+                PROJETS
               </div>
             </a>
           </li>
