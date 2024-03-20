@@ -137,4 +137,4 @@ export const personalData = {
 
 ## Source
 
-Design based on [Nicolas Delcourt](https://dev.to/said7388/build-an-awesome-next-portfolio-website-4cj9?ref=dailydev) project and [Mosh Hamedani's](https://codewithmosh.com/).
+Design based on [Abu Said](https://dev.to/said7388/build-an-awesome-next-portfolio-website-4cj9?ref=dailydev) project and [Mosh Hamedani's](https://codewithmosh.com/).
