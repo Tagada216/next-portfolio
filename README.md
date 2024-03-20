@@ -1,14 +1,10 @@
-# Developer Portfolio
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+# Developer Portfolio - D. Nicolas
 
 ---
 
 # Demo :movie_camera:
 
 ![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
 
 ---
 
@@ -59,9 +55,9 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/next-portfolio.git
 
-cd developer-portfolio
+cd next-portfolio
 ```
 
 ### Install packages from the root directory
@@ -96,31 +92,29 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/next-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "FIRSTNAME LASTNAME",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
+  description: "My name is FIRSTNAME LAST....",
+  email: "your_email@gmail.com",
+  phone: "+33 06 12 13 14 15",
   address: "Dhaka, Bangladesh",
   github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  facebook: "https://www.facebook.com/user_name",
+  linkedIn: "https://www.linkedin.com/in/<your-name>/",
+  twitter: "https://twitter.com/<your-id>",
+  stackOverflow: "https://stackoverflow.com/users/<id>/<your-name>",
+  leetcode: "https://leetcode.com/<your-name>/",
+  devUsername: "Your-Dev-Username",
   resume: "...",
 };
 ```
-
-`devUsername` Used for fetching blog from `dev.to`.
 
 ---
 
@@ -140,3 +134,7 @@ export const personalData = {
 |    tailwindcss     |
 
 ---
+
+## Source
+
+Design based on [Nicolas Delcourt](https://dev.to/said7388/build-an-awesome-next-portfolio-website-4cj9?ref=dailydev) project and [Mosh Hamedani's](https://codewithmosh.com/).
