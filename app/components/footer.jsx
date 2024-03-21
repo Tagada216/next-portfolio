@@ -15,12 +15,13 @@ function Footer() {
             © Developer Portfolio by{" "}
             <Link
               target="_blank"
-              href="https://www.linkedin.com/in/abu-said-bd/"
+              href="https://www.linkedin.com/in/nicolas-delcourt-304811121/"
               className="text-[#16f2b3]"
             >
-              Nicolas Delcourt
+              Nicolas Delcourt - 2024
             </Link>
           </p>
+
           <div className="flex items-center gap-5">
             <Link
               target="_blank"

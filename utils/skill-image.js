@@ -74,6 +74,7 @@ import wolframalpha from "/public/svg/skills/wolframalpha.svg";
 import wordpress from "/public/svg/skills/wordpress.svg";
 import nodejs from "/public/svg/skills/node-js.svg";
 import rust from "/public/svg/skills/rust.svg";
+import cicd from "/public/svg/skills/ci-cd.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -230,6 +231,8 @@ export const skillsImage = (skill) => {
       return nodejs;
     case "rust":
       return rust;
+    case "github actions":
+      return cicd;
     default:
       break;
   }
