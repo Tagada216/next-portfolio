@@ -8,7 +8,6 @@ const nextConfig = {
   images: {
     domains: ["res.cloudinary.com", "media.dev.to"],
   },
-  basePath: "/github-pages",
 };
 
 module.exports = nextConfig;
