@@ -1,11 +1,13 @@
 const path = require("path");
 
-module.exports = {
+const nextConfig = {
+  output: "out",
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
     domains: ["res.cloudinary.com", "media.dev.to"],
   },
-  output: "export",
 };
+
+module.exports = nextConfig;
