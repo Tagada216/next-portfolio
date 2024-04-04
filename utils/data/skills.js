@@ -2,6 +2,7 @@ export const skillsData = [
   "Javascript",
   "Typescript",
   "ViteJS",
+  "Adonis JS",
   "Node JS",
   "Vue",
   "Nuxt JS",

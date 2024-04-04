@@ -75,6 +75,7 @@ import wordpress from "/public/svg/skills/wordpress.svg";
 import nodejs from "/public/svg/skills/node-js.svg";
 import rust from "/public/svg/skills/rust.svg";
 import cicd from "/public/svg/skills/ci-cd.svg";
+import adonisjs from "public/svg/skills/adonisjs.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -233,6 +234,8 @@ export const skillsImage = (skill) => {
       return rust;
     case "github actions":
       return cicd;
+    case "adonis js":
+      return adonisjs;
     default:
       break;
   }
