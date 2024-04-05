@@ -61,7 +61,7 @@ function Navbar() {
               href="#blogs"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                Mes Articles
+                MES ARTICLES
               </div>
             </a>
           </li>
