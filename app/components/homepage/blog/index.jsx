@@ -42,7 +42,7 @@ function Blog({ blogs }) {
           href="https://dev.to/said7388"
           target="_blank"
         >
-          <span>Plus d'infos</span>
+          <span>Plus d&apos;infos</span>
           <FaArrowRight size={16} />
         </Link>
       </div>
