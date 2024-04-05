@@ -9,9 +9,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Nicolas Delcourt",
+  title: "Nicolas D. portfolio",
   description:
-    "This is the portfolio of Nicolas Delcourt. I am a freelance full stack developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "This is the portfolio of Nicolas D. I am a freelance full stack developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
 };
 
 export default function RootLayout({ children }) {
